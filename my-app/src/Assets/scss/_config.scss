@@ -1,32 +1,6 @@
-/*
-Vars
-*/
-$black: #010000;
-$white: #ffffff;
-$lightGrey: #e6e6e6;
-$darkGrey: #333;
-$red: #ff1755;
-
 body {
-  font-family: "Open Sans", sans serif;
-  font-size: 18px;
-  color: $black;
-  font-weight: 400;
-  font-style: normal;
-}
-
-/*
-Mixins
-*/
-
-@mixin translateY($e) {
-  -webkit-transform: translateY($e);
-  -moz-transform: translateY($e);
-  transform: translateY($e);
-}
-
-@mixin transition($e) {
-  -webkit-transition: $e;
-  -moz-transition: $e;
-  transition: $e;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  min-width: 250px;
+  overflow-x: hidden;
 }
